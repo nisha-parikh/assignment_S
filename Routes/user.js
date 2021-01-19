@@ -15,6 +15,7 @@ route.get("/",connection,(req,res)=>{
     })
 })
 
+
 route.post("/",connection,(req,res)=>
 {
     const userObj=new UserTbl({
